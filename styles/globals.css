@@ -1,9 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #00D2FF;  /* Teal */
+  --color-secondary: #007BFF;  /* Blue */
+  --background-gray: #6666;  /* Dark background */
+  --text-color: #FFFFFF;  /* White text */
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-color: var(--background-gray); */
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -14,3 +24,4 @@ a {
 * {
   box-sizing: border-box;
 }
+
